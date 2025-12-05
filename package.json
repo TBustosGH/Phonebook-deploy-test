@@ -1,0 +1,20 @@
+{
+  "name": "phonebook-backend",
+  "version": "1.0.0",
+  "description": "Exercises from 3-1 to 3-6 from Fullstack Open's course part 3. ",
+  "license": "ISC",
+  "author": "TBustos",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
