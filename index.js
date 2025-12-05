@@ -58,9 +58,8 @@ app.get('/info', (request, response) => {
 //DELETE: a person from the phonebook by it's ID
 app.delete('/api/persons/:id', (request, response) => {
     const id = Number(request.params.id)
-    const person = phonebook.filter(person => person.id !==id)
-
-    console.log(person)
+    const newPhonebook = phonebook.filter(person => person.id !==id)
+    phonebook = newPhonebook
 
     response.status(204).end()
 })
